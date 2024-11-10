@@ -19,7 +19,7 @@ const Product = () => {
                 { src: "/card/latte.jpg", name: "Latte" },
                 { src: "/card/iced-coffee.jpg", name: "Iced Coffee" },
                 { src: "/card/Cappuccino.jpg", name: "Cappuccino" },
-                { src: "/card/doppio.avif", name: "Doppio" },
+                { src: "/card/espresso-doppio.jpg", name: "Doppio" },
                 { src: "/card/Ristretto.jpg", name: "Ristretto" },
               ].map((product, index) => (
                 <div className="product-card" key={index}>
