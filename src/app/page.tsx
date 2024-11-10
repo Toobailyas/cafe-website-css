@@ -2,7 +2,7 @@
 import Hero from "./component/Hero";
 import Contact from "./component/Contact";
 import Product from "./component/Product";
-import OurStory from "./component/Ourstory"
+import OurStory from "./component/OurStory"
 
 
 export default function Home() {
