@@ -1,0 +1,51 @@
+/* OurStory.css */
+#ourstory {
+    width: 100%;
+  }
+  
+  .our-story-section {
+    color: white;
+    margin-top: 2.5rem;
+    border: 1px solid #33353F;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .our-story-title {
+    color: white;
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .our-story-description {
+    color: #f3e9c8;
+    margin: 2.25rem auto;
+    font-size: 1rem;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 640px) {
+    .our-story-title {
+      font-size: 2rem;
+    }
+    .our-story-description {
+      font-size: 1.125rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .our-story-title {
+      font-size: 3rem;
+    }
+    .our-story-description {
+      font-size: 1.875rem;
+    }
+  }
+  

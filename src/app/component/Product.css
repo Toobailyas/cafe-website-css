@@ -1,0 +1,131 @@
+/* Product.css */
+
+.container {
+    width: 100%;
+  }
+  
+  .product-section {
+    color: white;
+    margin-top: 2.5rem;
+    border: 1px solid #33353f;
+    padding: 1.5rem;
+  }
+  
+  .product-title {
+    color: white;
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .product-description {
+    color: #f3e0c8;
+    margin: 2.25rem auto;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 80%;
+  }
+  
+  .product-content {
+    color: #666;
+    padding: 1.5rem 0;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+  }
+  
+  .product-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: #1e1e1e;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .image-container {
+    position: relative;
+    height: 12rem;
+    width: 100%;
+  }
+  
+  .product-info {
+    padding: 1.5rem;
+  }
+  
+  .product-category {
+    color: #a0a0a0;
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-name {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  .product-text {
+    color: #ccc;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-link-container {
+    margin-top: auto;
+  }
+  
+  .product-link {
+    color: #ff7f50;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .product-link:hover {
+    color: #ffa07a;
+  }
+  
+  /* Media Queries */
+  
+  @media (min-width: 640px) {
+    .product-card {
+      flex: 1 1 45%;
+      max-width: 45%;
+    }
+  
+    .product-title {
+      font-size: 2.5rem;
+    }
+  
+    .product-description {
+      font-size: 1.125rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .product-card {
+      flex: 1 1 30%;
+      max-width: 30%;
+    }
+  
+    .product-title {
+      font-size: 3rem;
+    }
+  
+    .product-description {
+      font-size: 1.875rem;
+    }
+  }
+  
+  

@@ -1,0 +1,124 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #181818;
+    color: #9ca3af;
+    padding: 3rem 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width:100%;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 2rem;
+    align-items:baseline;
+    margin-bottom: 1rem;
+
+  }
+  
+  .footer-logo-image {
+    border-radius: 50%;
+  }
+  
+  .footer-logo-text {
+    margin-left: 0.75rem;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .footer-description {
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
+  }
+  
+  .footer-category {
+    text-align: left;
+  }
+  
+  .footer-category-title {
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-category-list li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-link {
+    color: #6b7280;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    color: #ffffff;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #6b7280;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .footer-bottom-text {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-left: 2rem;
+  }
+  
+  .footer-bottom-link {
+    color: #eceff5;
+    margin-left: 0.5rem;
+    text-decoration: none;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    color: #eceff5;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-social-link {
+    color: #6b7280;
+  }
+  
+  .footer-social-link:hover {
+    color: white;
+  }
+  
+  .footer-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
